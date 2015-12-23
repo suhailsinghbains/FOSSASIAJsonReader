@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>FOSSASIA Json Reader</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="css/speech-input.css">
+</head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">FOSSASIA Json Reader</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a id="napsMainListen" href="#">Suhail Singh Bains</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Suhail Singh Bains</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+
+
+
+  <div class="container">
+    <div class="section">
+
+     <div class="row">
+        <div class="input-field col s12">
+
+
+
+
+        <div class="si-wrapper" style="width:80%">
+          <input id="first_name2" type="text" class="validate si-input"  >
+          </div>
+<button id="submit_button" class="btn waves-effect waves-light" type="submit" name="action" onclick="myFunction()">Submit
+    <i class="material-icons right">send</i>
+  </button>
+<br/><br/>
+
+
+
+          <label class="active" for="first_name2">Enter value between 1 and 100</label>
+
+          <div id="metaInfo" style="margin: 6px 0 0 0;">
+            Results
+          </div>
+        </div>
+      </div>
+
+      <center>
+      <div class="preloader-wrapper big active s12" id="loadingMask" style="display: none;" >
+          <div class="spinner-layer spinner-green-only">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div><div class="gap-patch">
+              <div class="circle"></div>
+            </div><div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+        </center>
+      <ul class="collection" id="listOfPeople">
+        <li class="collection-item avatar">
+        
+        <i class="material-icons circle">perm_identity</i>
+          <span class="title">Title</span> 
+          <p style="text-align:left;">
+            Body
+          </p>
+        </li>
+      </ul>
+
+      
+
+    </div>
+  </div>
+
+
+ 
+
+
+  <!--  Scripts-->
+<script src="js/main.js"></script>  
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  </body>
+</html>
